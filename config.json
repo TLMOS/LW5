@@ -1,0 +1,35 @@
+{
+    "window":
+    {
+         "title": "TicTacToe",
+         "size": { "w": 570, "h": 565},
+		 "icon": "images/icon.jpg",
+		 "icon_size": 32
+    },
+	
+	"game_manager":
+	{
+		"player_is_first": true,
+		"init_player_agg": 0.5,
+		"ai_agg": 0.5,
+		"agg_damp": 0.1,
+		"vision_range": 1,
+		"attack_range": 6,
+		"top_n": 6,
+		"max_depth": 4,
+		"attack_weight": [[0, 0, 0], [0, 0.1, 0.25], [0, 2, 5], [0, 4, 20], [0, 20, 100], [300, 300, 300]]
+	},
+	
+	"settings":
+	{
+		"tile_size": 32,
+		"field_size": 11,
+		"show_hints": false
+	},
+	
+	"font":
+	{
+		"file_name": "fonts/RobotoMono-Regular.ttf",
+		"size_pixels": 18
+	}
+}
